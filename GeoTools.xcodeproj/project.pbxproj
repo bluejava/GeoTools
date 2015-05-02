@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		21D8457D1AF1B4D600CC6231 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D8457C1AF1B4D600CC6231 /* AppDelegate.swift */; };
+		21D8457F1AF1B4D600CC6231 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D8457E1AF1B4D600CC6231 /* GameView.swift */; };
+		21D845811AF1B4D600CC6231 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D845801AF1B4D600CC6231 /* GameViewController.swift */; };
+		21D845831AF1B4D600CC6231 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 21D845821AF1B4D600CC6231 /* art.scnassets */; };
+		21D845851AF1B4D600CC6231 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21D845841AF1B4D600CC6231 /* Images.xcassets */; };
+		21D845941AF1B4D600CC6231 /* GeoToolsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D845931AF1B4D600CC6231 /* GeoToolsTests.swift */; };
+		21D8459E1AF1B50100CC6231 /* textures in Resources */ = {isa = PBXBuildFile; fileRef = 21D8459D1AF1B50100CC6231 /* textures */; };
+		21D845A01AF1B85400CC6231 /* GeometryBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D8459F1AF1B85400CC6231 /* GeometryBuilder.swift */; };
+		21D845A21AF1B86A00CC6231 /* Quad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D845A11AF1B86A00CC6231 /* Quad.swift */; };
+		21D845A41AF1B89C00CC6231 /* SCNUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D845A31AF1B89C00CC6231 /* SCNUtils.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		21D8458E1AF1B4D600CC6231 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21D8456F1AF1B4D600CC6231 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21D845761AF1B4D600CC6231;
+			remoteInfo = GeoTools;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		21D845771AF1B4D600CC6231 /* GeoTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeoTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		21D8457B1AF1B4D600CC6231 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21D8457C1AF1B4D600CC6231 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		21D8457E1AF1B4D600CC6231 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		21D845801AF1B4D600CC6231 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		21D845821AF1B4D600CC6231 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		21D845841AF1B4D600CC6231 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		21D845871AF1B4D600CC6231 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		21D8458D1AF1B4D600CC6231 /* GeoToolsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeoToolsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		21D845921AF1B4D600CC6231 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21D845931AF1B4D600CC6231 /* GeoToolsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoToolsTests.swift; sourceTree = "<group>"; };
+		21D8459D1AF1B50100CC6231 /* textures */ = {isa = PBXFileReference; lastKnownFileType = folder; path = textures; sourceTree = "<group>"; };
+		21D8459F1AF1B85400CC6231 /* GeometryBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeometryBuilder.swift; sourceTree = "<group>"; };
+		21D845A11AF1B86A00CC6231 /* Quad.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Quad.swift; sourceTree = "<group>"; };
+		21D845A31AF1B89C00CC6231 /* SCNUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCNUtils.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		21D845741AF1B4D600CC6231 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21D8458A1AF1B4D600CC6231 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		21D8456E1AF1B4D600CC6231 = {
+			isa = PBXGroup;
+			children = (
+				21D845791AF1B4D600CC6231 /* GeoTools */,
+				21D845901AF1B4D600CC6231 /* GeoToolsTests */,
+				21D845781AF1B4D600CC6231 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		21D845781AF1B4D600CC6231 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				21D845771AF1B4D600CC6231 /* GeoTools.app */,
+				21D8458D1AF1B4D600CC6231 /* GeoToolsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		21D845791AF1B4D600CC6231 /* GeoTools */ = {
+			isa = PBXGroup;
+			children = (
+				21D8457C1AF1B4D600CC6231 /* AppDelegate.swift */,
+				21D8457E1AF1B4D600CC6231 /* GameView.swift */,
+				21D845801AF1B4D600CC6231 /* GameViewController.swift */,
+				21D845821AF1B4D600CC6231 /* art.scnassets */,
+				21D845841AF1B4D600CC6231 /* Images.xcassets */,
+				21D845861AF1B4D600CC6231 /* MainMenu.xib */,
+				21D8457A1AF1B4D600CC6231 /* Supporting Files */,
+				21D8459F1AF1B85400CC6231 /* GeometryBuilder.swift */,
+				21D845A11AF1B86A00CC6231 /* Quad.swift */,
+				21D845A31AF1B89C00CC6231 /* SCNUtils.swift */,
+			);
+			path = GeoTools;
+			sourceTree = "<group>";
+		};
+		21D8457A1AF1B4D600CC6231 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				21D8459D1AF1B50100CC6231 /* textures */,
+				21D8457B1AF1B4D600CC6231 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		21D845901AF1B4D600CC6231 /* GeoToolsTests */ = {
+			isa = PBXGroup;
+			children = (
+				21D845931AF1B4D600CC6231 /* GeoToolsTests.swift */,
+				21D845911AF1B4D600CC6231 /* Supporting Files */,
+			);
+			path = GeoToolsTests;
+			sourceTree = "<group>";
+		};
+		21D845911AF1B4D600CC6231 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				21D845921AF1B4D600CC6231 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		21D845761AF1B4D600CC6231 /* GeoTools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21D845971AF1B4D600CC6231 /* Build configuration list for PBXNativeTarget "GeoTools" */;
+			buildPhases = (
+				21D845731AF1B4D600CC6231 /* Sources */,
+				21D845741AF1B4D600CC6231 /* Frameworks */,
+				21D845751AF1B4D600CC6231 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GeoTools;
+			productName = GeoTools;
+			productReference = 21D845771AF1B4D600CC6231 /* GeoTools.app */;
+			productType = "com.apple.product-type.application";
+		};
+		21D8458C1AF1B4D600CC6231 /* GeoToolsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21D8459A1AF1B4D600CC6231 /* Build configuration list for PBXNativeTarget "GeoToolsTests" */;
+			buildPhases = (
+				21D845891AF1B4D600CC6231 /* Sources */,
+				21D8458A1AF1B4D600CC6231 /* Frameworks */,
+				21D8458B1AF1B4D600CC6231 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21D8458F1AF1B4D600CC6231 /* PBXTargetDependency */,
+			);
+			name = GeoToolsTests;
+			productName = GeoToolsTests;
+			productReference = 21D8458D1AF1B4D600CC6231 /* GeoToolsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		21D8456F1AF1B4D600CC6231 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = bluejava;
+				TargetAttributes = {
+					21D845761AF1B4D600CC6231 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					21D8458C1AF1B4D600CC6231 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 21D845761AF1B4D600CC6231;
+					};
+				};
+			};
+			buildConfigurationList = 21D845721AF1B4D600CC6231 /* Build configuration list for PBXProject "GeoTools" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 21D8456E1AF1B4D600CC6231;
+			productRefGroup = 21D845781AF1B4D600CC6231 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				21D845761AF1B4D600CC6231 /* GeoTools */,
+				21D8458C1AF1B4D600CC6231 /* GeoToolsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		21D845751AF1B4D600CC6231 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21D8459E1AF1B50100CC6231 /* textures in Resources */,
+				21D845831AF1B4D600CC6231 /* art.scnassets in Resources */,
+				21D845851AF1B4D600CC6231 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21D8458B1AF1B4D600CC6231 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		21D845731AF1B4D600CC6231 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21D8457F1AF1B4D600CC6231 /* GameView.swift in Sources */,
+				21D845811AF1B4D600CC6231 /* GameViewController.swift in Sources */,
+				21D845A41AF1B89C00CC6231 /* SCNUtils.swift in Sources */,
+				21D845A21AF1B86A00CC6231 /* Quad.swift in Sources */,
+				21D8457D1AF1B4D600CC6231 /* AppDelegate.swift in Sources */,
+				21D845A01AF1B85400CC6231 /* GeometryBuilder.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21D845891AF1B4D600CC6231 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21D845941AF1B4D600CC6231 /* GeoToolsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		21D8458F1AF1B4D600CC6231 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21D845761AF1B4D600CC6231 /* GeoTools */;
+			targetProxy = 21D8458E1AF1B4D600CC6231 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		21D845861AF1B4D600CC6231 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21D845871AF1B4D600CC6231 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		21D845951AF1B4D600CC6231 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		21D845961AF1B4D600CC6231 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		21D845981AF1B4D600CC6231 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = GeoTools/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		21D845991AF1B4D600CC6231 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = GeoTools/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		21D8459B1AF1B4D600CC6231 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GeoToolsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GeoTools.app/Contents/MacOS/GeoTools";
+			};
+			name = Debug;
+		};
+		21D8459C1AF1B4D600CC6231 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GeoToolsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GeoTools.app/Contents/MacOS/GeoTools";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		21D845721AF1B4D600CC6231 /* Build configuration list for PBXProject "GeoTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21D845951AF1B4D600CC6231 /* Debug */,
+				21D845961AF1B4D600CC6231 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21D845971AF1B4D600CC6231 /* Build configuration list for PBXNativeTarget "GeoTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21D845981AF1B4D600CC6231 /* Debug */,
+				21D845991AF1B4D600CC6231 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21D8459A1AF1B4D600CC6231 /* Build configuration list for PBXNativeTarget "GeoToolsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21D8459B1AF1B4D600CC6231 /* Debug */,
+				21D8459C1AF1B4D600CC6231 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 21D8456F1AF1B4D600CC6231 /* Project object */;
+}

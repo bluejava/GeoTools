@@ -79,15 +79,17 @@ class SCNUtils
 		mat.specular.wrapT = .WrapModeRepeat
 	}
 	
+	// Return the normal against the plane defined by the 3 vertices, specified in
+	// counter-clockwise order.
 	// note, this is an un-normalized normal.  (ha.. wtf? yah, thats right)
-	class func getNormal(v1: SCNVector3, v2: SCNVector3, v3: SCNVector3) -> SCNVector3
+	class func getNormal(v0: SCNVector3, v1: SCNVector3, v2: SCNVector3) -> SCNVector3
 	{
 		// there are three edges defined by these 3 vertices, but we only need 2 to define the plane
-		var edge1 = v3 - v1
-		var edge2 = v2 - v1
+		var edgev0v1 = v1 - v0
+		var edgev1v2 = v2 - v1
 		
 		// Assume the verts are expressed in counter-clockwise order to determine normal
-		return edge2.cross(edge1)
+		return edgev0v1.cross(edgev1v2)
 	}
 }
 

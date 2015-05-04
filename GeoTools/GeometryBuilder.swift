@@ -65,8 +65,8 @@ class GeometryBuilder
 			faceIndices.append(CInt(verts.count-1)) // v3
 			
 			// add normals for each vertice (compute seperately for face1 and face2 - common edge gets avg)
-			var nvf1 = SCNUtils.getNormal(quad.v0, v2: quad.v1, v3: quad.v2)
-			var nvf2 = SCNUtils.getNormal(quad.v0, v2: quad.v2, v3: quad.v3)
+			var nvf1 = SCNUtils.getNormal(quad.v0, v1: quad.v1, v2: quad.v2)
+			var nvf2 = SCNUtils.getNormal(quad.v0, v1: quad.v2, v2: quad.v3)
 			normals.append(nvf1 + nvf2) // v0
 			normals.append(nvf1) // v1
 			normals.append(nvf1 + nvf2) // v2
